@@ -1,0 +1,11 @@
+var comics=["Marvel","Dc","Timely comcis"];
+comics.push("Kimetsu No Yabi");
+comics.pop();
+comics.push("Kimetsu No Yabi");
+comics.unshift("Percy jackson");
+comics.sort();
+console.log(comics);
+document.getElementById("ex_1").innerHTML=comics;
+var number=["1000000000000000000000000000","1202020202020203030040856653","54321098765","0"];
+var maximum=Math.min.apply(Math,number);
+document.getElementById("ex_2").innerHTML=maximum;
